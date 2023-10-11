@@ -11,7 +11,7 @@ int main(){
     for(int i = 0; i<n; i++){
         scanf("%d",&arr[i]);
     }
-    printf("OOPS! You forgot an element to insert. \nEnter the position of forgotten element: \n");
+    printf("Enter the position of forgotten element: \n");
     scanf("%d", &pos);
     printf("Enter the value:\n");
     scanf("%d", &val);
